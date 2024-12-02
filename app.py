@@ -61,7 +61,7 @@ def token_required(f):
         return f(*args, **kwargs)
     return decorator
 
-@app.route('/predict', methods=['POST'])
+@app.route('/api/predict', methods=['POST'])
 @token_required
 def predict():
     data = request.get_json()
