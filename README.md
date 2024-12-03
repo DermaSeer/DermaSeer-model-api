@@ -79,7 +79,7 @@ docker run -d -p 5000:5000 --name model-ml-api dermaseer-ml-api:1.0.0
 4. Build and Push Docker Image
 
    ```bash
-   gcloud builds submit --tag asia-southeast2-docker.pkg.dev/${GOOGLE_CLOUD_PROJECT}/${ARTIFACT_REPO}/dermaseer-api:1.0.0
+   gcloud builds submit --tag asia-southeast2-docker.pkg.dev/${GOOGLE_CLOUD_PROJECT}/${ARTIFACT_REPO}/dermaseer-ml-api:1.0.0
    ```
 
 5. Deploy to Cloud Run
